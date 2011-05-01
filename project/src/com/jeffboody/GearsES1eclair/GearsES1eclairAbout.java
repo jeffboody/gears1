@@ -69,6 +69,7 @@ public class GearsES1eclairAbout extends Activity
 		              "		<li>Updated Gears icon</li>" +
 		              "		<li>Uploaded source to github</li>" +
 		              "	</ul>" +
+		              "</p>" +
 		              "<p>20100905" +
 		              "	<ul>" +
 		              "		<li>For Android 2.0 (eclair)</li>" +
