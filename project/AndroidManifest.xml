@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.jeffboody.GearsES1eclair"
+      android:versionCode="1"
+      android:versionName="1">
+	<uses-sdk android:minSdkVersion="7"/>
+    <application android:label="Gears (ES1/eclair+)"
+                 android:icon="@drawable/logo">
+        <activity android:name=".GearsES1eclair"
+      	          android:configChanges="orientation"
+                  android:label="Gears (ES1/eclair+)">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GearsES1eclairAbout"
+                  android:label="Gears (ES1/eclair+)">
+            <intent-filter>
+                <action android:name="android.intent.action.ABOUT" />
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest> 
