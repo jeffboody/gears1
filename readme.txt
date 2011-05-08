@@ -19,10 +19,10 @@ Gears for Android(TM) Readme
 	See http://www.jeffboody.net/gears4android.php for more information.
 
 [Source Code]
-	Source code is hosted on github at https://github.com/jeffboody/gears1
 
-	To clone the git repository enter the following commands:
-	git clone git@github.com:jeffboody/gears1.git
+	# Source code is hosted on github at https://github.com/jeffboody/gears1
+	# To clone the git repository enter the following commands:
+	git clone git://github.com/jeffboody/gears1.git
 	cd gears1
 	git submodule update --init
 
